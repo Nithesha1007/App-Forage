@@ -1,0 +1,30 @@
+{
+    "name": "appforge-build-server",
+    "version": "1.0.0",
+    "description": "Backend server for building real Flutter APKs",
+    "main": "build-server.js",
+    "scripts": {
+        "start": "node build-server.js",
+        "dev": "nodemon build-server.js"
+    },
+    "keywords": [
+        "flutter",
+        "apk",
+        "builder"
+    ],
+    "author": "AppForge",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "body-parser": "^1.20.2",
+        "fs-extra": "^11.1.1",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
